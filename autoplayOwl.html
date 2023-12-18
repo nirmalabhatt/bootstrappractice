@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Owl Carousel Demo</title>
+    <style>
+        
+        #div1{
+            border: 2px solid red;
+            height:200px;
+            width:400px;
+            text-align: center;
+            
+        }
+        #div2{
+            border: 2px solid black;
+            height:200px;
+            width:400px;
+           
+        }
+        #div3{
+            
+            text-align: center;
+            border: 2px solid blue;
+            height:200px;
+            width:400px;
+            
+
+        }
+        #div4{
+            border: 2px solid green;
+            height:200px;
+            width:400px;
+            
+        }
+        #div5{
+            border: 2px solid red;
+            height:200px;
+            width:400px;
+           
+        }
+        #div6{
+            border: 2px solid black;
+            height:200px;
+            width:400px;
+           
+        }
+        #div7{
+            border: 2px solid brown;
+            height:200px;
+            width:400px;
+           
+        }
+        #div8{
+            border: 2px solid green;
+            height:200px;
+            width:400px;
+           
+        }
+        #div9{
+            border: 2px solid greenyellow;
+            height:200px;
+            width:400px;
+        }
+        #div10{
+           
+            text-align: center;
+            border: 2px solid purple;
+            height:200px;
+            width:400px;
+           
+           
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="owl-carousel owl-theme">
+
+        <div id="div1" class="item"><img src="images/image1.jpg" alt=""></div>
+        <div id="div2" class="item"><img src="images/image2.jpg" alt=""></div>
+        <div id="div3" class="item"><img src="images/image1.jpg" alt=""></div>
+        <div id="div4" class="item"><img src="images/image2.jpg" alt=""></div>
+        <div id="div5" class="item"><img src="images/image1.jpg" alt=""></div>
+        <div id="div6" class="item"><img src="images/image2.jpg" alt=""></div>
+        <div id="div7" class="item"><img src="images/image1.jpg" alt=""></div>
+        <div id="div8" class="item"><img src="images/image2.jpg" alt=""></div>
+        <div id="div9" class="item"><img src="images/image1.jpg" alt=""></div>
+        <div id="div10" class="item"><img src="images/image2.jpg" alt=""></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+});
+</script>
+</body>
+</html>
